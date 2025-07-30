@@ -1,5 +1,9 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
 
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+
   <servlet>
     <servlet-name>RegisterServlet</servlet-name>
     <servlet-class>RegisterServlet</servlet-class>
